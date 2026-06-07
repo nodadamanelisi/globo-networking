@@ -22,7 +22,7 @@ variable "environment" {
 
 variable "billing_code" {
   type        = string
-  description = "(Optional) Billing code to use for all resources in this module. Default: globo-dev"
+  description = "(Optional) Billing code to use for all resources in this module. Default: globo-dev.."
 }
 
 variable "cidr_block" {
